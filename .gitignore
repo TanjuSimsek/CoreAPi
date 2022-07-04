@@ -1,8 +1,6 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
-/NLayerProject/.vs/NLayerProject/v17/.suo
 *.cache
 *.dll
 *.exe
@@ -20,3 +18,5 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+/NLayerProject/.vs/NLayerProject/v17/.suo
+
