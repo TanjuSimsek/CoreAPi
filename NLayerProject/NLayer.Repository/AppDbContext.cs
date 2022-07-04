@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using NLayer.Core;
+using NLayer.Core.Models;
 
 namespace NLayer.Repository
 {
