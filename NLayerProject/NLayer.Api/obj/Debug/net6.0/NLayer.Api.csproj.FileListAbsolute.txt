@@ -66,3 +66,6 @@ C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\b
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
