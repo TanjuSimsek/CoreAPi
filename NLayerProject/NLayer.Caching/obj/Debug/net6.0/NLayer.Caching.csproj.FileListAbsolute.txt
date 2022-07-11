@@ -10,3 +10,10 @@ C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Cachi
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\obj\Debug\net6.0\refint\NLayer.Caching.dll
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.pdb
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\obj\Debug\net6.0\ref\NLayer.Caching.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\bin\Debug\net6.0\NLayer.Repository.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\bin\Debug\net6.0\NLayer.Service.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\bin\Debug\net6.0\NLayer.Service.pdb
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\bin\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.csproj.CopyComplete
