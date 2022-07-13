@@ -17,7 +17,7 @@ namespace NLayer.Api.Controllers
         //private readonly IService<Product> _service;
         private readonly IProductService _service;
 
-        public ProductsController(IService<Product> service, IMapper mapper, IProductService productService)
+        public ProductsController( IMapper mapper, IProductService productService)
         {
             _service = productService;
             _mapper = mapper;

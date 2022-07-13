@@ -71,3 +71,5 @@ C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\b
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\Autofac.dll
 C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\NLayer.Caching.dll
+C:\Users\deads\Desktop\AllProject\MiniCoreApi\CoreAPi\NLayerProject\NLayer.Api\bin\Debug\net6.0\NLayer.Caching.pdb
