@@ -103,14 +103,16 @@ namespace NLayer.Caching
             await CacheAllProductsAsync();
         }
 
-        public Task<List<ProductWithCategoryDto>> GetProductsWithCategory()
+        public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
         {
             //var products = await _repository.GetProductsWithCategory();
             var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
 
             var productWithCategoryDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
 
-            return Task.FromResult(productWithCategoryDto);
+            //return Task.FromResult(productWithCategoryDto);
+            return Task.FromResult(
+                CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productWithCategoryDto));
         }
 
         public async Task CacheAllProductsAsync()
