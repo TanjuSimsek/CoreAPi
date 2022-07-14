@@ -7,6 +7,7 @@ using NLayer.Web.Modules;
 using System.Reflection;
 using FluentValidation.AspNetCore;
 using NLayer.Service.Validations;
+using NLayer.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,7 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 
 });
 
+builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 //AutoFac
 
@@ -41,7 +43,7 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 
 var app = builder.Build();
 
-
+app.UseExceptionHandler("/Home/Error");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
