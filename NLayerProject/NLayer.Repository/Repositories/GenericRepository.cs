@@ -1,28 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using NLayer.Core.Repositories;
+using System.Linq.Expressions;
 
 namespace NLayer.Repository.Repositories
 {
-    public class GenericRepository<T>:IGenericRepository<T> where  T:class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected readonly AppDbContext _context;
         private readonly DbSet<T> _dbSet;
 
         public GenericRepository(AppDbContext context)
         {
-            
+
             _context = context;
             _dbSet = _context.Set<T>();
         }
 
 
-        public  async Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(int id)
         {
             return await _dbSet.FindAsync(id);
         }
@@ -39,7 +34,7 @@ namespace NLayer.Repository.Repositories
 
         public async Task<bool> AnyAsync(Expression<Func<T, bool>> expression)
         {
-           return await _dbSet.AnyAsync(expression);
+            return await _dbSet.AnyAsync(expression);
         }
 
         public async Task AddAsync(T entity)

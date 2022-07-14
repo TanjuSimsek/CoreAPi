@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NLayer.Core.DTOS
+﻿namespace NLayer.Core.DTOS
 {
-    public  class ProductDto:BaseDto
+    public class ProductDto : BaseDto
     {
         public string Name { get; set; }
         public int Stock { get; set; }

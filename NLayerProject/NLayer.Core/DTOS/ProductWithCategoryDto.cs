@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NLayer.Core.DTOS
+﻿namespace NLayer.Core.DTOS
 {
-    public  class ProductWithCategoryDto:ProductDto
+    public class ProductWithCategoryDto : ProductDto
     {
-        public CategoryDto Category { get; set; }          
+        public CategoryDto Category { get; set; }
     }
 }

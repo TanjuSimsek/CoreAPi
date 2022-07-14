@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using NLayer.Core.DTOS;
 using NLayer.Core.Models;
 using NLayer.Core.Repositories;
@@ -12,7 +7,7 @@ using NLayer.Core.UnitOfWorks;
 
 namespace NLayer.Service.Services
 {
-    public class CategoryService:Service<Category>,ICategoryService
+    public class CategoryService : Service<Category>, ICategoryService
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
@@ -22,7 +17,7 @@ namespace NLayer.Service.Services
             _mapper = mapper;
         }
 
-        public async  Task<CustomResponseDto<CategoryWithProductsDto>> GetSingleCategoryByIdWithProductsAsync(int categoryId)
+        public async Task<CustomResponseDto<CategoryWithProductsDto>> GetSingleCategoryByIdWithProductsAsync(int categoryId)
         {
             var category = await _categoryRepository.GetSingleCategoryByIdWithProductsAsync(categoryId);
             var categoryDto = _mapper.Map<CategoryWithProductsDto>(category);

@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using NLayer.Core.Models;
 
 namespace NLayer.Repository.Seeds
 {
-    internal class ProductSeed: IEntityTypeConfiguration<Product>
+    internal class ProductSeed : IEntityTypeConfiguration<Product>
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasData(
-                
+
                 new Product
                 {
 
-                    Id=1,
+                    Id = 1,
                     CategoryId = 1,
                     Name = "Kalem1",
                     Price = 100,

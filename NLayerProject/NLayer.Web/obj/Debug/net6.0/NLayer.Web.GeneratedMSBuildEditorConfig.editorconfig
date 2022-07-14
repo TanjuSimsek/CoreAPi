@@ -23,8 +23,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/deads/Desktop/AllProject/MiniCoreApi/CoreAPi/NLayerProject/NLayer.Web/Views/ProductsController1/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNDb250cm9sbGVyMVxJbmRleC5jc2h0bWw=
+[C:/Users/deads/Desktop/AllProject/MiniCoreApi/CoreAPi/NLayerProject/NLayer.Web/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/deads/Desktop/AllProject/MiniCoreApi/CoreAPi/NLayerProject/NLayer.Web/Views/Products/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/deads/Desktop/AllProject/MiniCoreApi/CoreAPi/NLayerProject/NLayer.Web/Views/Products/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/deads/Desktop/AllProject/MiniCoreApi/CoreAPi/NLayerProject/NLayer.Web/Views/Shared/Error.cshtml]
